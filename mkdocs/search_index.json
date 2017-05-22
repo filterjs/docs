@@ -2,8 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "", 
+            "text": "hi", 
             "title": "Home"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "", 
+            "title": "About"
         }
     ]
 }

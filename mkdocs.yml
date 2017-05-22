@@ -1,0 +1,42 @@
+# Project information
+site_name: 'FilterJS'
+site_description: 'A javascript library to enable advanced searching with mutiple parameters.'
+site_author: 'Jeffrey Meng'
+site_url: 'https://filter.js.org'
+
+pages:
+    - Home: index.md
+    - About: about.md
+# Repository
+repo_name: 'filterjs/filterjs'
+repo_url: 'https://github.com/filterjs/filterjs'
+
+# Copyright
+copyright: 'Copyright &copy; 2017 Jeffrey Meng'
+
+# Documentation and theme
+theme: 'material'
+
+# Options
+extra:
+    feature:
+        tabs: true
+    palette:
+        primary: 'cyan'
+
+# Extensions
+markdown_extensions:
+    - admonition
+    - codehilite(guess_lang=false)
+    - toc(permalink=true)
+    - pymdownx.arithmatex
+    - pymdownx.betterem(smart_enable=all)
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist(custom_checkbox=true)
+    - pymdownx.tilde
